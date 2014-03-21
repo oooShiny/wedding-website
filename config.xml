@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<juiceboxgallery 
+
+	useFlickr="true"
+	flickrUserName="ar.brown83"
+	backgroundColor="rgba(34,34,34,0)"
+	showThumbsButton="true"
+	useThumbDots="false"
+	useFullscreenExpand="false"
+	showOpenButton="false"
+	thumbFrameColor="rgba(255,255,255,.15)"/>
