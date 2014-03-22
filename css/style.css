@@ -103,6 +103,10 @@ h2 a:visited {
     padding-right: 10%;
     height: 100vh;
 }
+#countdown {
+    width: 230px;
+    margin: 0 auto;
+}
 .footnote {
     position: relative;
     top: 30vh;
