@@ -11,6 +11,7 @@
   <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="css/style.css">
   <script src='js/libs/jquery-1.6.1.min.js'></script>
+  <script src='js/colorbox/jquery.colorbox-min.js'></script>
   <script src="js/script.js"></script>
   <script type="text/javascript">
   <!--[if lt IE 7 ]>
@@ -21,67 +22,69 @@
 
 </head>
 
-<body onload="LoadGmaps()">
+<body>
 
   <div id="main" role="main">
 <!-- Fancy scrolling sky with stars that fade in/out -->
-	<section id="first" class="story" data-speed="8" data-type="background">
-		<div class="scrollingHeader" data-speed="2" data-type="background">
-			<div class="treeHeader">
-				<div class="stars">
-					<!-- This is where the fancy stars fade into -->
-				</div>
+		<div class="scrollingHeaderHome">
+            <!-- Navigation signs for positioning -->
+            <div class="signsHome">
+                <ul class="nav">
+                    <li id="homedoor"><a class="current" href="index.html">Home</a></li>
+                    <li><a href="visitors.html">Guests</a></li>
+                    <li><a href="#">Ceremony</a></li>
+                    <li><a href="registry.html">Registry</a></li>
+                    <li><a href="gallery.html" class="">Gallery</a></li>
+                </ul>
+            </div>
+			<div class="treeHeaderHome">
 <!-- Trees and roots for positioning -->
 				<div class="trees">
-					<img id="treeLeft"src="images/treePooh.png" />
-						<img id="treeRight" src="images/tree.png" />
+					<img id="treeFrontLeft" src="images/treeNew.gif" />
+					<img id="treeFrontRight" src="images/treeNewFlip.gif" />
 				</div>
 			</div>
-<!-- Navigation signs for positioning -->
-			<div class="signs">
-				<ul class="nav">
-						<li><a class="current" href="index.html"><img src="images/nav/navSign-Home2.png" /></a></li>
-						<li><a href="visitors.html"><img src="images/nav/navSign-Visitors2.png" /></a></li>
-						<li><a href="registry.html"><img src="images/nav/navSign-Registry2.png" /></a></li>
-						<li><a href="gallery.html" class=""><img src="images/nav/navSign-Gallery2.png" /></a></li>
-				</ul>
-			</div>
 
-			<div class="dirt">
-				<div class="roots">
+			<div class="dirtHome">
+<!-- 				<div class="roots">
 					<img id="rootLeft" src="images/rootsErinSmall.png" />
 					<img id="rootRight" src="images/rootsFlipAndySmall.png" />
 				</div>
-
-				<div id="example-one">
+ -->
+				<div id="example-two">
 
 				<div id="home" class="pageContent">
-					<p>
-						Yep, that’s right. It finally happened! It’s been 10 years, but we’ve decided that it’s time to tie the proverbial knot. And what better way to signify the decision by...making a website!* 
-					</p>
-					<p>
-						We’ve put together a bunch of stuff that we thought would be helpful for those of you joining us to celebrate, but if we missed anything let us know! 
-					</p>
-					<p>
-						Of course, the most important info is when and where. For the luddites out there who still use pencils to add things to their yearly Brown family calendar, you can put it in pen: October 4th, 2014. For the rest of us in the 21st century, put it in your calendar. And for those of you with Andy’s math skills, here’s how long it is until then: 
-					</p>
-					<p>
-						<div id="countdown" class="countdownHolder">
-                    <iframe src="http://free.timeanddate.com/countdown/i42s0oc9/n68/cf12/cm0/cu4/ct3/cs0/ca0/co0/cr0/ss0/cacc2c2c2/cpcc2c2c2/pct/tcfff/fs100/szw576/szh243/iso2014-10-04T12:00:00" frameborder="0" width="225" height="52"></iframe>
+					<ul class="timeline" id="time-erin">
+						<li id="erin-family"><a class="timelink" href="#cb-efam">Her Family</a></li>
+						<li id="erin-home"><a class="timelink" href="#cb-ehome">She grew up here</a></li>
+						<li id="erin-birth"><a class="timelink" href="#cb-ebirth">Born 3.15.1983</a></li>
+					</ul>
 
-                </div>
-
-						For the answer to the “where” question, poke that Visitors sign up top with your mouse to find out.
-					</p>
-					<p class="footnote">
-						(*read: This is Erin’s way of putting up with Andy’s need for all things nerdy. It was either this or iPad Bibles, Twitter nuptials, or massive flatscreens littering the Brown family backyard. You all got off lucky.)
-					</p>
+					<ul class="timeline" id="time-andy">
+						<li id="andy-family"><a class="timelink" href="#cb-afam">His Family</a></li>
+						<li id="andy-home"><a class="timelink" href="#cb-ahome">He grew up here</a></li>
+						<li id="andy-birth"><a class="timelink" href="#cb-abirth">Born 4.27.1983</a></li>
+					</ul>
 				</div>
+				<script>
+            jQuery('a.timelink').colorbox({inline:true});
+        </script>
 			</div>
 		</div>
-	</section>
   </div> <!-- // End of #main -->
 
+<div style="display:none">
+
+	<!-- Erin's Popups -->
+	<div class="modal" id="cb-efam">The Marchal Family</div>
+	<div class="modal" id="cb-ehome">Merrimack, NH</div>
+	<div class="modal" id="cb-ebirth">Erin Marie Marchal<br>Born March 15th, 1983</div>
+
+	<!-- Andy's Popups -->
+	<div class="modal" id="cb-afam">The Brown Family</div>
+	<div class="modal" id="cb-ahome">Salem, NH</div>
+	<div class="modal" id="cb-abirth">Andrew Robert Brown<br>Born April 27th, 1983</div>
+</div>
 
 
 </body>

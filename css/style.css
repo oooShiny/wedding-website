@@ -30,11 +30,11 @@ h2 a:visited {
 	text-decoration: none;
 }
 .scrollingHeader {
-	background: url('../images/skyBG2.gif') repeat-x;
+	background: url('../images/skyBGdark.gif') repeat-x;
 	height: 1500px;
 }
 .treeHeader { 
-	background-image: url('../images/grassB.png');
+	background-image: url('../images/long-grass1.png');
 	background-repeat: repeat-x;
 	background-position: bottom;
 	position: fixed;
@@ -49,12 +49,22 @@ h2 a:visited {
 #treeLeft {
 	position: relative;
 	float: left;
-	padding-left: 6%;
+    left: -35px;
 }
 #treeRight {
 	position: relative;
 	float: right;
-	padding-right: 6%;
+    right: -55px;
+}
+#treeFrontLeft {
+	position: relative;
+	float: left;
+    left: -35px;
+}
+#treeFrontRight {
+	position: relative;
+	float: right;
+	right: -55px;
 }
 .stars {
 	position: fixed;
@@ -66,23 +76,29 @@ h2 a:visited {
 	background-image: url('../images/star-field.png');
 	background-repeat: repeat-x;
 }
-.signs {
-	padding-left: 35%;
-	padding-top: 190px;
-	position: fixed;
-	width: 100%;
+.nav li a {
+    background-image: url('../images/door-closed.png');
+    height: 107px;
+    background-size: contain;
+    display: block;
+    width: 61px;
+}
+.nav li a:hover {
+    background-image: url('../images/door-open.png');
 }
 .dirt {
-	background: #412e1d;
+	/*background: #412e1d;*/
+	background: #5F442B;
 	position: fixed;
 	width: 100%;
 	top: 281px;
 	height: 100vh;
+    border-top: 2px solid #351d01;
 }
 .roots {
 	position: relative;
 	width: 1024px;
-	height: 285px;
+	height: 1024px;
 	margin: 0 auto;
 }
 #rootLeft {
@@ -140,6 +156,64 @@ h2 a:visited {
 	color: black;
 }
 
+/* 
+	Home Page Roots Timeline 
+*/
+.treeHeaderHome {
+	background-image: url('../images/long-grass1.png');
+	background-repeat: repeat-x;
+	background-position: bottom;
+	height: 281px;
+	width: 100%;
+	top: 0px;
+}
+.dirtHome {
+	background: #5F442B;
+	width: 100%;
+	top: 281px;
+    border-top: 2px solid #351d01;
+}
+.signsHome {
+	padding-left: 35%;
+	width: 100%;
+	position: relative;
+	top: 180px;
+	height: 0px;
+}
+.scrollingHeaderHome {
+	background: url('../images/skyBGdark.gif') repeat-x;
+}
+#home {
+	background-image: url('../images/rootsTimeline.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 1024px;
+}
+
+#example-two {
+	margin: 0 auto;
+	position: relative;
+	width: 1024px;
+}
+
+.timeline li {
+	list-style: none;
+	position: absolute;
+}
+
+#time-erin {float: left;}
+#time-andy {float: right;}
+
+li#erin-birth {top: 830px;}
+li#erin-home {top: 580px;left: 290px;}
+li#erin-family {top: 508px;left: 286px;}
+
+li#andy-birth {top: 830px; left: 845px;}
+li#andy-home {top: 580px;left: 669px;}
+li#andy-family {top: 508px;left: 697px;}
+
+.modal {background: #5F442B}
+
 /* Parallax CSS */
 #first { background: #412e1d 50% 0; }
 #second { background: url(../images/slide2.jpg) 50% 0 no-repeat fixed; }
@@ -175,19 +249,20 @@ h2 a:visited {
 	padding: 10px; 
 	margin: 0 auto;
 	position: relative;
-	top: -280px;
+	top: -990px;
 	width: 1024px;
 	height: 455px;
 	overflow-y: auto;
 	overflow-x: hidden;
 }
 
-.nav { overflow: hidden; margin: 0 0 10px 0; }
+
+
+.nav { overflow: hidden; margin: 0 0 10px 0; list-style: none; position: relative; top: -25px; left: -60px}
 .nav li { width: 97px; float: left; margin: 0 10px 0 0; }
 .nav li.last { margin-right: 0; }
 .nav li a { display: block; padding: 5px; border: 0; }
 
-.nav { list-style: none; }
 
 .tab-content {
 	float: left;
