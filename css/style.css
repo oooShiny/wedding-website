@@ -173,7 +173,8 @@ h2 a:visited {
 	top: 281px;
     border-top: 2px solid #351d01;
 }
-.signsHome {
+.signsHome,
+.signs {
 	padding-left: 35%;
 	width: 100%;
 	position: relative;
