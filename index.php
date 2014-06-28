@@ -27,23 +27,8 @@
   <div id="main" role="main">
 <!-- Fancy scrolling sky with stars that fade in/out -->
 		<div class="scrollingHeaderHome">
-<!-- Navigation signs for positioning -->
-            <div class="signsHome">
-                <ul class="nav">
-                    <li><a class="current" href="index.html">Home</a></li>
-                    <li><a href="visitors.html">Guests</a></li>
-                    <li><a href="#">Ceremony</a></li>
-                    <li><a href="registry.html">Registry</a></li>
-                    <li><a href="gallery.html" class="">Gallery</a></li>
-                </ul>
-            </div>
-			<div class="treeHeaderHome">
-<!-- Trees and roots for positioning -->
-				<div class="trees">
-					<img id="treeFrontLeft" src="images/treeNew.gif" />
-					<img id="treeFrontRight" src="images/treeNewFlip.gif" />
-				</div>
-			</div>
+
+      <?php include('nav.php'); ?>
 
 			<div class="dirtHome">
 <!-- 				<div class="roots">

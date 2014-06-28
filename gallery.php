@@ -89,25 +89,10 @@
 				<div class="stars">
 					<!-- This is where the fancy stars fade into -->
 				</div>
-<!-- Navigation signs for positioning -->
-                <div class="signsHome">
-                    <ul class="nav">
-                        <li><a class="current" href="index.html">Home</a></li>
-                        <li><a href="visitors.html">Guests</a></li>
-                        <li><a href="#">Ceremony</a></li>
-                        <li><a href="registry.html">Registry</a></li>
-                        <li><a href="gallery.html" class="">Gallery</a></li>
-                    </ul>
-                </div>
-                <div class="treeHeaderHome">
-<!-- Trees and roots for positioning -->
-                    <div class="trees">
-                        <img id="treeFrontLeft" src="images/treeNew.gif" />
-                        <img id="treeFrontRight" src="images/treeNewFlip.gif" />
-                    </div>
-                </div>
 
-			<div class="dirt">
+        <?php include('nav.php'); ?>
+
+        <div class="dirt">
 				<div class="roots">
 					<img id="rootLeft" src="images/rootsErinSmall.png" />
 					<img id="rootRight" src="images/rootsFlipAndySmall.png" />
