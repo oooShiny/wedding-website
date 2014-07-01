@@ -106,7 +106,7 @@
                     <p>
                         It has dawned on us that we are wholly ill-equipped to put together an entire gallery of pictures of the two of us. Turns out we don’t take many pictures together, apparently. If you have any that you want to share, feel free to send them to us and we’ll put them up here.
                     </p>
-					<section class="Collage effect-parent"><div class="Image_Wrapper"><a><img src="images/gallery/camping.jpg"></a></div><div class="Image_Wrapper"><a><img src="images/gallery/couch.jpg"></a></div><div class="Image_Wrapper"><a><img src="images/gallery/erins25th.jpg"></a></div><div class="Image_Wrapper"><a><img src="images/gallery/iansWedding.jpg"></a></div><div class="Image_Wrapper"><a><img src="images/gallery/myrtleBeach.jpg"></a></div><div class="Image_Wrapper"><a><img src="images/gallery/toothbrushes.jpg"></a></div></section>		
+					<section class="Collage effect-parent"><div class="Image_Wrapper"><a><img src="images/gallery/camping.jpg"></a></div><div class="Image_Wrapper"><a><img src="images/gallery/couch.jpg"></a></div><div class="Image_Wrapper"><a><img src="images/gallery/erins25th.jpg"></a></div><div class="Image_Wrapper"><a><img src="images/gallery/iansWedding.jpg"></a></div><div class="Image_Wrapper"><a><img src="images/gallery/myrtleBeach.jpg"></a></div><div class="Image_Wrapper"><a><img src="images/gallery/toothbrushes.jpg"></a></div><div class="Image_Wrapper"><a><img src="images/gallery/weddingphoto1.jpg"></a></div><div class="Image_Wrapper"><a><img src="images/gallery/weddingphoto2.jpg"></a></div></section>
 				</div>
 			</div>
 		</div>

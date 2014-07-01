@@ -51,29 +51,7 @@
                         We know not everyone is local, and some of you are less local than others! To give you an idea of what you can do while you’re here, we’ve put together some information. If you’re just looking for a place to stay, check out the hotels around us. And if you’re coming from across the pond, make sure to check out the “How to be an American” page!
 
                     </p>
-					<p>&nbsp;</p> 
-					<div class="tab-content">
-					</div>
 
-					<div class="tab-content">
-					<h2>Local Attractions</h2>
-						<ul>
-							<li><a href="http://www.visitnh.gov/" target="_blank">New Hampshire Website</a></li>
-							<li><a href="http://www.bostonusa.com/" target="_blank">Boston, MA</a></li>
-							<li><a href="http://www.portsmouthnh.com/visitors/" target="_blank">Portsmouth, NH</a></li>
-							<li><a href="http://www.portlandmaine.com/discover-portland/" target="_blank">Portland, ME</a></li>
-							<li><a href="http://www.bestbuy.com/site/mobile-cell-phones/no-contract-phones/abcat0801002.c?id=abcat0801002" target="_blank">Cell Phones and Sim Cards</a></li>
-						</ul>
-
-					<h2>Sports</h2>
-						<ul>
-							<li><a href="http://boston.redsox.mlb.com/" target="_blank">Boston Red Sox</a> (Baseball)</li>
-							<li><a href="http://www.patriots.com/" target="_blank">New England Patriots</a> (Football)</li>
-							<li><a href="http://bruins.nhl.com/" target="_blank">Boston Bruins</a> (Hockey)</li>
-							<li><a href="http://www.stubhub.com/sports-tickets/" target="_blank">Cheap(er) Tickets</a></li>
-						</ul>
-					</div>
-					
 				</div>
 			</div>
 		</div>

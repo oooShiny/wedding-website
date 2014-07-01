@@ -192,7 +192,7 @@ h2 a:visited {
 	background: url('../images/skyBGdark.gif') repeat-x;
 }
 #home {
-	background-image: url('../images/rootsTimeline.png');
+	background-image: url('../images/rootsTimeline2.png');
 	background-repeat: no-repeat;
 	background-size: cover;
 	height: 1024px;
@@ -201,7 +201,7 @@ h2 a:visited {
 #example-two {
 	margin: 0 auto;
 	position: relative;
-	width: 1024px;
+	width: 1132px;
 }
 
 .timeline li {
@@ -259,7 +259,7 @@ li#andy-family {top: 508px;left: 697px;}
 	position: relative;
 	top: -990px;
 	/*width: 1024px;*/
-	height: 455px;
+	height: 350px;
 	overflow-y: auto;
 	overflow-x: hidden;
 }
@@ -277,3 +277,17 @@ li#andy-family {top: 508px;left: 697px;}
 	padding-right: 20px;
 }
 
+.nav span {
+    display: block;
+    width: 60px;
+    margin: 0 auto;
+    text-align: center;
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    font-size: 85%;
+    background-color: whitesmoke;
+    border-bottom: 1px solid lightblue;
+    position: relative;
+    top: -3px;
+}

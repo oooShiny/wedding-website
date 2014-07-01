@@ -1,11 +1,11 @@
 <!-- Navigation signs for positioning -->
 <div class="signs">
   <ul class="nav">
-    <li><a class="current" href="index.php">Home</a></li>
-    <li><a href="visitors.php">Guests</a></li>
-    <li><a href="ceremony.php">Ceremony</a></li>
-    <li><a href="registry.php">Registry</a></li>
-    <li><a href="gallery.php" class="">Gallery</a></li>
+    <li><a class="current" href="index.php"><span>Home</span></a></li>
+    <li><a href="visitors.php"><span>Guests</span></a></li>
+    <li><a href="ceremony.php"><span>Ceremony</span></a></li>
+    <li><a href="registry.php"><span>Registry</span></a></li>
+    <li><a href="gallery.php" class=""><span>Gallery</span></a></li>
   </ul>
 </div>
 <div class="treeHeaderHome">
