@@ -291,3 +291,9 @@ li#andy-family {top: 508px;left: 697px;}
     position: relative;
     top: -3px;
 }
+
+div#registry a {
+    width: 30%;
+    display: block;
+    float: left;
+}

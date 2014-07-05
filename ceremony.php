@@ -47,10 +47,10 @@
 				<div id="example-one">
 
 				<div id="visitors" class="pageContent">
+          <h2>Attire</h2>
 					<p>
-                        We know not everyone is local, and some of you are less local than others! To give you an idea of what you can do while you’re here, we’ve put together some information. If you’re just looking for a place to stay, check out the hotels around us. And if you’re coming from across the pond, make sure to check out the “How to be an American” page!
-
-                    </p>
+            The attire is summer cocktail wear. The ceremony and reception are both outside on uneven terrain, please consider the safety of your ankles and the comfort of your feet. Ojai summers are known for dry and very hot weather, please dress accordingly.
+          </p>
 
 				</div>
 			</div>
@@ -62,4 +62,3 @@
 
 </body>
 </html>
-
