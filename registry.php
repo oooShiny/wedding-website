@@ -45,8 +45,8 @@
 				<div id="registry" class="pageContent">
 					<p>
 					<a href="https://www.nearbyregistry.com/index.cfm/go/shop.registry-display-grid?reg=141" target="_blank"><img src="images/flagNearby.png" /></a>
-            <a href="http://www.myregistry.com/public/Erin-Marchal-Andrew-Brown" target="_blank"><img src="images/flagCrate.png" /></a>
-            <a href="http://www.myregistry.com/public/Erin-Marchal-Andrew-Brown" target="_blank"><img src="images/flagPottery.png" /></a>
+            <a href="http://www.crateandbarrel.com/Gift-Registry/Erin-Marchal-and-Andrew-Brown/r5123757" target="_blank"><img src="images/flagCrate.png" /></a>
+            <a href="http://www.potterybarn.com/registry/3499485/registry-list.html" target="_blank"><img src="images/flagPottery.png" /></a>
 					</p>
 				</div>
 			</div>
