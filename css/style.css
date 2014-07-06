@@ -1,4 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Love+Ya+Like+A+Sister);
+@import url(http://fonts.googleapis.com/css?family=Coming+Soon);
 @import url(http://fonts.googleapis.com/css?family=Londrina+Sketch);
 
 body {
@@ -23,7 +23,7 @@ h3 {
 }
 p, li {
     font-size: 120%;
-    font-family: 'Love Ya Like A Sister', cursive;
+    font-family: 'Coming Soon', cursive;
 }
 .centered {
     text-align: center;
@@ -64,6 +64,12 @@ h2 a:visited {
 	width: 1024px;
 	margin: 0 auto;
 }
+.leaves {
+    height: 0px;
+    width: 1024px;
+    margin: 0 auto;
+
+}
 #treeLeft {
 	position: relative;
 	float: left;
@@ -79,25 +85,24 @@ h2 a:visited {
 	float: left;
     left: -35px;
 }
-div.leaves {
-    height: 0px;
-}
-img#treeFrontLeftLeaves {
-    position: relative;
-    top: -280px;
-    left: 45px;
-}
-img#treeFrontRightLeaves {
-    position: relative;
-    top: -280px;
-    right: 24px;
-    float: right;
-}
 #treeFrontRight {
 	position: relative;
 	float: right;
 	right: -55px;
 }
+img#treeFrontLeftLeaves {
+    position: relative;
+    top: -280px;
+    float: left;
+    left: -35px;
+}
+img#treeFrontRightLeaves {
+    position: relative;
+    top: -280px;
+    right: -55px;
+    float: right;
+}
+
 .stars {
 	position: fixed;
 	opacity: 0;
@@ -235,18 +240,30 @@ img#treeFrontRightLeaves {
 .timeline li {
 	list-style: none;
 	position: absolute;
+    color: #351d01;
 }
 
 #time-erin {float: left;}
 #time-andy {float: right;}
+#time-both {
+    margin: 0 auto;
+    width: 20%;
+}
+li#both-married {top: 90px;}
 
-li#erin-birth {top: 830px;}
-li#erin-home {top: 580px;left: 290px;}
-li#erin-family {top: 508px;left: 286px;}
+li#erin-dating {top: 200px;}
+li#erin-meet {top: 290px; left: 160px;}
+li#erin-unh {top: 380px; left: 100px;}
+li#erin-grad {top: 508px;left: 126px;}
+li#erin-home {top: 584px; left: 5px;}
+li#erin-birth {top: 830px; left: 95px;}
 
+li#andy-unh {top: 200px;}
+li#andy-meet {top: 290px; right: 160px;}
+li#andy-europe {top: 380px; right: 30px;}
+li#andy-grad {top: 508px;right: 0px;}
+li#andy-home {top: 590px; right: 5px;}
 li#andy-birth {top: 830px; left: 845px;}
-li#andy-home {top: 580px;left: 669px;}
-li#andy-family {top: 508px;left: 697px;}
 
 .modal {background: #5F442B}
 

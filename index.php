@@ -39,37 +39,46 @@
 				<div id="example-two">
 
 				<div id="home" class="pageContent">
-					<ul class="timeline" id="time-erin">
-						<li id="erin-family"><a class="timelink" href="#cb-efam">Her Family</a></li>
-						<li id="erin-home"><a class="timelink" href="#cb-ehome">She grew up here</a></li>
-						<li id="erin-birth"><a class="timelink" href="#cb-ebirth">Born 3.15.1983</a></li>
-					</ul>
-
-					<ul class="timeline" id="time-andy">
-						<li id="andy-family"><a class="timelink" href="#cb-afam">His Family</a></li>
-						<li id="andy-home"><a class="timelink" href="#cb-ahome">He grew up here</a></li>
-						<li id="andy-birth"><a class="timelink" href="#cb-abirth">Born 4.27.1983</a></li>
-					</ul>
+<!--          <ul class="timeline" id="time-both">-->
+<!--            <li id="both-married">Andy &amp; Erin get married!</li>-->
+<!--          </ul>-->
+<!--					<ul class="timeline" id="time-erin">-->
+<!--            <li id="erin-dating">Erin starts dating Andy</li>-->
+<!--            <li id="erin-meet">She meets Andy for the first time</li>-->
+<!--            <li id="erin-unh">She starts at UNH and meets Felice</li>-->
+<!--						<li id="erin-grad">She graduates from Merrimack High School</a></li>-->
+<!--						<li id="erin-home">She grows up in Merrimack, NH</li>-->
+<!--						<li id="erin-birth">Erin is born on 3.15.1983</li>-->
+<!--					</ul>-->
+<!---->
+<!--					<ul class="timeline" id="time-andy">-->
+<!--            <li id="andy-unh">He starts attending UNH and asks Erin out</li>-->
+<!--            <li id="andy-meet">He meets Erin while visiting Felice at UNH</li>-->
+<!--            <li id="andy-europe">He takes some time off and travels Europe</li>-->
+<!--						<li id="andy-grad">He graduates from Salem High School with Felice</li>-->
+<!--						<li id="andy-home">He grows up in Salem, NH</li>-->
+<!--						<li id="andy-birth">Andrew is born on 4.27.1983</li>-->
+<!--					</ul>-->
 				</div>
-				<script>
-            jQuery('a.timelink').colorbox({inline:true});
-        </script>
+<!--				<script>-->
+<!--            jQuery('a.timelink').colorbox({inline:true});-->
+<!--        </script>-->
 			</div>
 		</div>
   </div> <!-- // End of #main -->
 
-<div style="display:none">
-
+<!--<div style="display:none">-->
+<!---->
 	<!-- Erin's Popups -->
-	<div class="modal" id="cb-efam">The Marchal Family</div>
-	<div class="modal" id="cb-ehome">Merrimack, NH</div>
-	<div class="modal" id="cb-ebirth">Erin Marie Marchal<br>Born March 15th, 1983</div>
-
+<!--	<div class="modal" id="cb-efam">The Marchal Family</div>-->
+<!--	<div class="modal" id="cb-ehome">Merrimack, NH</div>-->
+<!--	<div class="modal" id="cb-ebirth">Erin Marie Marchal<br>Born March 15th, 1983</div>-->
+<!---->
 	<!-- Andy's Popups -->
-	<div class="modal" id="cb-afam">The Brown Family</div>
-	<div class="modal" id="cb-ahome">Salem, NH</div>
-	<div class="modal" id="cb-abirth">Andrew Robert Brown<br>Born April 27th, 1983</div>
-</div>
+<!--	<div class="modal" id="cb-afam">The Brown Family</div>-->
+<!--	<div class="modal" id="cb-ahome">Salem, NH</div>-->
+<!--	<div class="modal" id="cb-abirth">Andrew Robert Brown<br>Born April 27th, 1983</div>-->
+<!--</div>-->
 
 
 </body>
