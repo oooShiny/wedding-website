@@ -15,6 +15,13 @@ h3 {
     margin: 20px 0;
     line-height: 0.5em;
 }
+p {
+    font-size: 120%;
+}
+.centered {
+    text-align: center;
+    padding-top: 40px;
+}
 a, 
 a:hover,
 a:active,
@@ -64,6 +71,20 @@ h2 a:visited {
 	position: relative;
 	float: left;
     left: -35px;
+}
+div.leaves {
+    height: 0px;
+}
+img#treeFrontLeftLeaves {
+    position: relative;
+    top: -280px;
+    left: 45px;
+}
+img#treeFrontRightLeaves {
+    position: relative;
+    top: -280px;
+    right: 24px;
+    float: right;
 }
 #treeFrontRight {
 	position: relative;
@@ -185,7 +206,7 @@ h2 a:visited {
 	padding-left: 35%;
 	width: 100%;
 	position: relative;
-	top: 180px;
+	top: -100px;
 	height: 0px;
 }
 .scrollingHeaderHome {

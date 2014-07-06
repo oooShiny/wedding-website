@@ -1,3 +1,10 @@
+<div class="treeHeaderHome">
+  <!-- Trees and roots for positioning -->
+  <div class="trees">
+    <img id="treeFrontLeft" src="images/treeNew.gif" />
+    <img id="treeFrontRight" src="images/treeNewFlip.gif" />
+  </div>
+</div>
 <!-- Navigation signs for positioning -->
 <div class="signs">
   <ul class="nav">
@@ -8,10 +15,7 @@
     <li><a href="gallery.php" class=""><span>Gallery</span></a></li>
   </ul>
 </div>
-<div class="treeHeaderHome">
-  <!-- Trees and roots for positioning -->
-  <div class="trees">
-    <img id="treeFrontLeft" src="images/treeNew.gif" />
-    <img id="treeFrontRight" src="images/treeNewFlip.gif" />
-  </div>
+<div class="leaves">
+  <img id="treeFrontLeftLeaves" src="images/treeNewLeaves.png" />
+  <img id="treeFrontRightLeaves" src="images/treeNewLeavesFlip.png" />
 </div>

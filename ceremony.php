@@ -47,11 +47,18 @@
 				<div id="example-one">
 
 				<div id="visitors" class="pageContent">
-          <h2>Attire</h2>
-					<p>
-            The attire is summer cocktail wear. The ceremony and reception are both outside on uneven terrain, please consider the safety of your ankles and the comfort of your feet. Ojai summers are known for dry and very hot weather, please dress accordingly.
+          <p class="centered">The ceremony begins at 3 o'clock in the afternoon.  Please feel free to arrive a little early, enter into the backyard and make yourself at home. We're so excited to have you there!</p>
+          <br><br><br>
+          <img src="images/attire.png" style="float: left;height: 50px;padding-right: 10px;">
+          <p>
+            The attire is seasonal cocktail wear. The ceremony and reception will both take place outdoors on uneven terrain, so please consider the safety of your ankles and the comfort of your feet.  It may become chilly as the sun sets, but dancing into the evening will keep you warm!
           </p>
-
+          <br><br>
+          <img src="images/parking.png" style="float: left;height: 50px;padding-right: 10px;">
+          <p>You are welcome to park on both sides of Stone Post Road in the Mill Village neighborhood.  Please do not park in the driveway, as vendors will be coming and going.  This may mean that you will have a short walk from your car to the house.</p>
+          <br><br>
+          <img src="images/phones.png" style="float: left;height: 50px;padding-right: 10px;">
+          <p>Please consider joining us in celebrating our wedding ceremony...unplugged!   We would love it if you could enjoy present moments with us through your own personal view, rather than the view through your screen (phone or otherwise!).  We have hired a wonderfully warm and talented photographer to capture moments throughout our day, and we will share those photos with you.  Once the ceremony has ended, feel free to whip out those cameras and smartphones and take photos to your heart's content! </p>
 				</div>
 			</div>
 		</div>
