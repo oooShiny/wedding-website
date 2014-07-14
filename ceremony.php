@@ -53,7 +53,7 @@
           <br><br><br>
           <img src="images/attire.png" style="float: left;height: 50px;padding-right: 10px;">
           <p>
-            The attire is seasonal cocktail wear. The ceremony and reception will both take place outdoors on uneven terrain, so please consider the safety of your ankles and the comfort of your feet.  It may become chilly as the sun sets, but dancing into the evening will keep you warm!
+            The ceremony and reception will both take place outdoors on uneven terrain, so please consider the safety of your ankles and the comfort of your feet.  It may become chilly as the sun sets, but dancing into the evening will keep you warm!
           </p>
           <br><br>
           <img src="images/parking.png" style="float: left;height: 50px;padding-right: 10px;">
