@@ -33,12 +33,14 @@
       var portland = new google.maps.LatLng(43.660342,-70.2514564);
       var boston = new google.maps.LatLng(42.3133735,-71.057157);
       var portsmouth = new google.maps.LatLng(43.0566295,-70.775502);
+      var nashua = new google.maps.LatLng(42.7527878,-71.4965484);
 
       // Text to show up in each bubble
-      var infoPortland = new google.maps.InfoWindow({content: '<div class="map-content"><h1 class="firstHeading">Portland, ME</h1><div class="bodyContent"><a target="_blank" href="http://www.portlandmaine.com/discover-portland/" target="_blank">Click here for things to do in Portland.</a></div></div>'});
-      var infoPortsmouth = new google.maps.InfoWindow({content: '<div class="map-content"><h1 class="firstHeading">Portsmouth, NH</h1><div class="bodyContent"><a target="_blank" href="http://www.portsmouthnh.com/visitors/" target="_blank">Click here for things to do in Portsmouth.</a></div></div>'});
+      var infoPortland = new google.maps.InfoWindow({content: '<div class="map-content"><h1 class="firstHeading">Portland, ME</h1><div class="bodyContent"><a href="http://www.portlandmaine.com/discover-portland/" target="_blank">Click here for things to do in Portland.</a></div></div>'});
+      var infoPortsmouth = new google.maps.InfoWindow({content: '<div class="map-content"><h1 class="firstHeading">Portsmouth, NH</h1><div class="bodyContent"><a href="http://www.portsmouthnh.com/visitors/" target="_blank">Click here for things to do in Portsmouth.</a></div></div>'});
       var infoSalem = new google.maps.InfoWindow({content: '<div class="map-content"><h1 class="firstHeading">Wedding Venue</h1><div class="bodyContent">5 Stone Post Road<br>Salem, NH 03079</div></div>'});
-      var infoBoston = new google.maps.InfoWindow({content: '<div class="map-content"><h1 class="firstHeading">Boston, MA</h1><div class="bodyContent"><a target="_blank" href="http://www.bostonusa.com/" target="_blank">Click here for things to do in Boston.</a></div></div>'});
+      var infoBoston = new google.maps.InfoWindow({content: '<div class="map-content"><h1 class="firstHeading">Boston, MA</h1><div class="bodyContent"><a href="http://www.bostonusa.com/" target="_blank">Click here for things to do in Boston.</a></div></div>'});
+      var infoNashua = new google.maps.InfoWindow({content: '<div class="map-content"><h1 class="firstHeading">Nashua, NH</h1><div class="bodyContent"><a href="http://www.downtownnashua.org/" target="_blank">Click here for things to do in Nashua.</a></div></div>'});
 
       // Basic Map Options
       var myOptions = {
@@ -98,6 +100,15 @@
       });
       google.maps.event.addListener(marker4, 'click', function(){
         infoPortsmouth.open(map,marker4);
+      });
+      var marker5 = new google.maps.Marker({
+        position: nashua,
+        map: map,
+        title:"Nashua, New Hampshire",
+        icon: "http://maps.google.com/mapfiles/marker_green.png"
+      });
+      google.maps.event.addListener(marker5, 'click', function(){
+        infoNashua.open(map,marker5);
       });
     }
   </script>
