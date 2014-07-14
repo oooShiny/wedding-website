@@ -48,9 +48,11 @@
           <p>
             We appreciate each and every one of the people in our lives.  You are all valued and loved by us, and your presence at our wedding is a gift that we will cherish.  Please do not feel that you need to give more that!  If you would like to contribute to our home with a gift, please find our registries below.
           </p>
-            <h2><a href="http://www.crateandbarrel.com/Gift-Registry/Erin-Marchal-and-Andrew-Brown/r5123757" target="_blank"><img src="images/registry-cb.png" /></a></h2>
-          <h2><a href="https://www.nearbyregistry.com/index.cfm/go/shop.registry-display-grid?reg=141" target="_blank"><img src="images/registry-nearby.png" /></a></h2>
-          <h2><a href="http://www.potterybarn.com/registry/3499485/registry-list.html" target="_blank"><img src="images/registry-pb.png" /></a></h2>
+          <div id="bags">
+            <a target="_blank" href="http://www.crateandbarrel.com/Gift-Registry/Erin-Marchal-and-Andrew-Brown/r5123757" target="_blank"><img src="images/registry-cb.png" /></a>
+            <a target="_blank" href="https://www.nearbyregistry.com/index.cfm/go/shop.registry-display-grid?reg=141" target="_blank"><img src="images/registry-nearby.png" /></a>
+            <a target="_blank" href="http://www.potterybarn.com/registry/3499485/registry-list.html" target="_blank"><img src="images/registry-pb.png" /></a>
+          </div>
 				</div>
 			</div>
 		</div>

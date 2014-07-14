@@ -35,10 +35,10 @@
       var portsmouth = new google.maps.LatLng(43.0566295,-70.775502);
 
       // Text to show up in each bubble
-      var infoPortland = new google.maps.InfoWindow({content: '<div class="map-content"><h1 class="firstHeading">Portland, ME</h1><div class="bodyContent"><a href="http://www.portlandmaine.com/discover-portland/" target="_blank">Click here for things to do in Portland.</a></div></div>'});
-      var infoPortsmouth = new google.maps.InfoWindow({content: '<div class="map-content"><h1 class="firstHeading">Portsmouth, NH</h1><div class="bodyContent"><a href="http://www.portsmouthnh.com/visitors/" target="_blank">Click here for things to do in Portsmouth.</a></div></div>'});
+      var infoPortland = new google.maps.InfoWindow({content: '<div class="map-content"><h1 class="firstHeading">Portland, ME</h1><div class="bodyContent"><a target="_blank" href="http://www.portlandmaine.com/discover-portland/" target="_blank">Click here for things to do in Portland.</a></div></div>'});
+      var infoPortsmouth = new google.maps.InfoWindow({content: '<div class="map-content"><h1 class="firstHeading">Portsmouth, NH</h1><div class="bodyContent"><a target="_blank" href="http://www.portsmouthnh.com/visitors/" target="_blank">Click here for things to do in Portsmouth.</a></div></div>'});
       var infoSalem = new google.maps.InfoWindow({content: '<div class="map-content"><h1 class="firstHeading">Wedding Venue</h1><div class="bodyContent">5 Stone Post Road<br>Salem, NH 03079</div></div>'});
-      var infoBoston = new google.maps.InfoWindow({content: '<div class="map-content"><h1 class="firstHeading">Boston, MA</h1><div class="bodyContent"><a href="http://www.bostonusa.com/" target="_blank">Click here for things to do in Boston.</a></div></div>'});
+      var infoBoston = new google.maps.InfoWindow({content: '<div class="map-content"><h1 class="firstHeading">Boston, MA</h1><div class="bodyContent"><a target="_blank" href="http://www.bostonusa.com/" target="_blank">Click here for things to do in Boston.</a></div></div>'});
 
       // Basic Map Options
       var myOptions = {
@@ -125,42 +125,51 @@
 				<div id="example-one">
 
 				<div id="visitors" class="pageContent">
-          <h2 id="visitorh2">Where Would You Like to Stay?</h2>
-
+          <br>
+          <h2 id="visitorh2">Suggested Accomodations</h2>
+          <p>
+            We're lucky to have guests joining our celebration from places across the United States and around the world!  We hope the information we've provided here will help with those travels.
+          </p>
           <!--Google Map-->
           <div id="map_canvas"></div>
           <div id="floatright">
             <h3>Salem, NH</h3>
             <ul>
-              <li><a href="http://www.ihg.com/holidayinn/hotels/us/en/salem/selnh/hoteldetail">Holiday Inn</a></li>
-              <li><a href="http://laquintasalemnh.com">La Quinta</a></li>
+              <li><a target="_blank" href="http://www.ihg.com/holidayinn/hotels/us/en/salem/selnh/hoteldetail">Holiday Inn</a></li>
+              <li><a target="_blank" href="http://laquintasalemnh.com">La Quinta</a></li>
+            </ul>
+
+            <h3>Nashua, NH</h3>
+            <ul>
+              <li><a target="_blank" href="http://www.ihg.com/crowneplaza/hotels/us/en/nashua/ashst/hoteldetail">Crowne Plaza Hotel</a></li>
+              <li><a target="_blank" href="http://hamptoninn3.hilton.com/en/hotels/new-hampshire/hampton-inn-nashua-ASHNHHX/index.html">Hampton Inn</a></li>
             </ul>
 
             <h3>Portsmouth, NH</h3>
-            <p>If you’re heading North, take a look at the <a href="http://www.portsmouthnh.com/lodging/">Portsmouth, NH website</a> for lodging suggestions. There are some great places to stay.</p>
+            <p>If you’re heading North, take a look at the <a target="_blank" href="http://www.portsmouthnh.com/lodging/">Portsmouth, NH website</a> for lodging suggestions. There are some great places to stay.</p>
   <br>
             <p>Since our beginning together, we’ve spent A LOT of time in Portsmouth. We love it so much, we’re staying there on our wedding night at the Ale House Inn. Downtown Portsmouth has wonderful food and fun shops. Here are some of our favorite places to grab a bite:</p>
             <ul>
-              <li><a href="http://www.bngcoffee.com">Breaking New Grounds</a> - coffee and tea shop (great pastries, too!)</li>
-              <li><a href="http://thefriendlytoast.com/locations/portsmouth/">The Friendly Toast</a> - unique, fun atmosphere. Often busy, but worth the yummy breakfast (which is served all day!).</li>
-              <li><a href="http://popoversonthesquare.com">Popover’s on the Square</a> - café and bakery in Market Square</li>
-              <li><a href="http://portsmouthbrewery.com">The Portsmouth Brewery</a> - great beer, great pub food, great atmosphere.</li>
-              <li><a href="http://www.jumpinjays.com">Jumpin’ Jay’s Fish Café</a> - just so good. Make a reservation!</li>
+              <li><a target="_blank" href="http://www.bngcoffee.com">Breaking New Grounds</a> - coffee and tea shop (great pastries, too!)</li>
+              <li><a target="_blank" href="http://thefriendlytoast.com/locations/portsmouth/">The Friendly Toast</a> - unique, fun atmosphere. Often busy, but worth the yummy breakfast (which is served all day!).</li>
+              <li><a target="_blank" href="http://popoversonthesquare.com">Popover’s on the Square</a> - café and bakery in Market Square</li>
+              <li><a target="_blank" href="http://portsmouthbrewery.com">The Portsmouth Brewery</a> - great beer, great pub food, great atmosphere.</li>
+              <li><a target="_blank" href="http://www.jumpinjays.com">Jumpin’ Jay’s Fish Café</a> - just so good. Make a reservation!</li>
             </ul>
 
             <h3>Boston, MA</h3>
             <p>We have some suggestions for places to stay if you’re heading South, towards Boston/Andover.</p>
             <ul>
-              <li><a href="http://www.marriott.com/hotels/travel/mhtch-courtyard-boston-andover/">Courtyard Marriott</a></li>
-              <li><a href="http://homewoodsuites3.hilton.com/en/hotels/massachusetts/homewood-suites-by-hilton-boston-andover-BOSANHW/index.html">Homewood Suites by Hilton</a></li>
-              <li><a href="http://www.wyndham.com/hotels/massachusetts/andover/wyndham-boston-andover/hotel-overview#">Wyndham Boston/Andover</a></li>
+              <li><a target="_blank" href="http://www.marriott.com/hotels/travel/mhtch-courtyard-boston-andover/">Courtyard Marriott</a></li>
+              <li><a target="_blank" href="http://homewoodsuites3.hilton.com/en/hotels/massachusetts/homewood-suites-by-hilton-boston-andover-BOSANHW/index.html">Homewood Suites by Hilton</a></li>
+              <li><a target="_blank" href="http://www.wyndham.com/hotels/massachusetts/andover/wyndham-boston-andover/hotel-overview#">Wyndham Boston/Andover</a></li>
             </ul>
 
             <p>There’s a lot to see in Boston too.</p>
             <ul>
-              <li><a href="http://www.cityofboston.gov/freedomtrail/bostoncommon.asp">Boston Common</a></li>
-              <li><a href="http://www.bostonducktours.com">Duck Tours</a></li>
-              <li><a href="http://www.neaq.org/index.php">New England Aquarium</a></li>
+              <li><a target="_blank" href="http://www.cityofboston.gov/freedomtrail/bostoncommon.asp">Boston Common</a></li>
+              <li><a target="_blank" href="http://www.bostonducktours.com">Duck Tours</a></li>
+              <li><a target="_blank" href="http://www.neaq.org/index.php">New England Aquarium</a></li>
             </ul>
           </div>
         </div>
