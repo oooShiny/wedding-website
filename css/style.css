@@ -1,5 +1,12 @@
-@import url(http://fonts.googleapis.com/css?family=Coming+Soon);
-@import url(http://fonts.googleapis.com/css?family=Londrina+Sketch);
+@font-face {
+    font-family: bodyFont;
+    src: url('../fonts/Accanthis_Regular.otf');
+}
+
+@font-face {
+    font-family: headerFont;
+    src: url('../fonts/Accanthis_Regular.otf');
+}
 
 body {
 	color: #C2C2C2;
@@ -8,22 +15,22 @@ h2 {
 	font-size: 30px; 
 	margin: 25px 0; 
 	line-height: 0.5em;
-    font-family: 'Coming Soon', cursive;
+    font-family: 'bodyFont', cursive;
 }
 #visitorh2 {
     width: 100%;
     text-align: center;
-    font-family: 'Londrina Sketch', cursive;
+    font-family: 'headerFont', cursive;
 }
 h3 {
     font-size: 20px;
     margin: 20px 0;
     line-height: 0.5em;
-    font-family: 'Londrina Sketch', cursive;
+    font-family: 'headerFont', cursive;
 }
 p, li {
     font-size: 120%;
-    font-family: 'Coming Soon', cursive;
+    font-family: 'bodyFont', cursive;
 }
 .centered {
     text-align: center;
@@ -119,6 +126,7 @@ img#treeFrontRightLeaves {
     background-size: contain;
     display: block;
     width: 61px;
+    font-size: 80%;
 }
 .nav li a:hover {
     background-image: url('../images/door-open.png');
