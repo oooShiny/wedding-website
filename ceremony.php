@@ -49,7 +49,7 @@
 				<div id="example-one">
 
 				<div id="visitors" class="pageContent">
-          <p class="centered">The ceremony begins at 3 o'clock in the afternoon.  <br>Please feel free to arrive a little early, enter into the backyard and make yourself at home. We're so excited to have you there!</p>
+          <p class="centered">Our wedding celebration begins at 3 o'clock in the afternoon.  <br>Please feel free to arrive a little early, enter into the backyard and make yourself at home. We're so excited to have you there!</p>
           <br><br><br>
           <img src="images/attire.png" style="float: left;height: 50px;padding-right: 10px;">
           <p>

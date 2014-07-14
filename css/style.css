@@ -2,6 +2,11 @@
     font-family: bodyFont;
     src: url('../fonts/Accanthis2_Regular.otf');
 }
+@font-face {
+    font-family: introFont;
+    src: url('../fonts/Archistico_Simple.ttf');
+}
+
 
 @font-face {
     font-family: headerFont;
@@ -369,4 +374,14 @@ li#andy-birth {top: 830px; left: 845px;}
     height: 270px;
     margin-left: 90px;
     padding-top: 15px;
+}
+
+#intro {
+    position: absolute;
+    top: 180px;
+    left: 330px;
+    text-align: center;
+    font-size: 200%;
+    font-variant: small-caps;
+    font-family: 'introFont';
 }
