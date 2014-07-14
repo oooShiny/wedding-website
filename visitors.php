@@ -1,6 +1,8 @@
 <!doctype html>
 <html class="no-js" lang="en">
 <head>
+  <link rel="shortcut icon" href="images/treeIcon.png" type="image/x-icon">
+  <link rel="icon" href="images/treeIcon.png" type="image/x-icon">
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 

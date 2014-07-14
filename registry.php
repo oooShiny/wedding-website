@@ -1,6 +1,8 @@
 <!doctype html>
 <html class="no-js" lang="en">
 <head>
+  <link rel="shortcut icon" href="images/treeIcon.png" type="image/x-icon">
+  <link rel="icon" href="images/treeIcon.png" type="image/x-icon">
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
@@ -43,11 +45,12 @@
 				<div id="example-one">
 
 				<div id="registry" class="pageContent">
-					<p>
-          <h2><a href="https://www.nearbyregistry.com/index.cfm/go/shop.registry-display-grid?reg=141" target="_blank"><img src="images/registry-nearby.png" /><br><br>Nearby Registry</a></h2>
-            <h2><a href="http://www.crateandbarrel.com/Gift-Registry/Erin-Marchal-and-Andrew-Brown/r5123757" target="_blank"><img src="images/registry-cb.png" /><br><br>Crate &amp; Barrel</a></h2>
-          <h2><a href="http://www.potterybarn.com/registry/3499485/registry-list.html" target="_blank"><img src="images/registry-pb.png" /><br><br>Pottery Barn</a></h2>
-					</p>
+          <p>
+            We appreciate each and every one of the people in our lives.  You are all valued and loved by us, and your presence at our wedding is a gift that we will cherish.  Please do not feel that you need to give more that!  If you would like to contribute to our home with a gift, please find our registries below.
+          </p>
+            <h2><a href="http://www.crateandbarrel.com/Gift-Registry/Erin-Marchal-and-Andrew-Brown/r5123757" target="_blank"><img src="images/registry-cb.png" /></a></h2>
+          <h2><a href="https://www.nearbyregistry.com/index.cfm/go/shop.registry-display-grid?reg=141" target="_blank"><img src="images/registry-nearby.png" /></a></h2>
+          <h2><a href="http://www.potterybarn.com/registry/3499485/registry-list.html" target="_blank"><img src="images/registry-pb.png" /></a></h2>
 				</div>
 			</div>
 		</div>

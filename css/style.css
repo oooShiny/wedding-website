@@ -8,7 +8,7 @@ h2 {
 	font-size: 30px; 
 	margin: 25px 0; 
 	line-height: 0.5em;
-    font-family: 'Londrina Sketch', cursive;
+    font-family: 'Coming Soon', cursive;
 }
 #visitorh2 {
     width: 100%;
@@ -337,8 +337,15 @@ li#andy-birth {top: 830px; left: 845px;}
     top: -3px;
 }
 
-div#registry a {
+#registry a {
     width: 30%;
     display: block;
     float: left;
+    color: white;
+}
+
+#registry {
+    margin-left: 180px;
+    height: 270px;
+    padding-top: 50px;
 }
