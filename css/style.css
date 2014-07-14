@@ -223,8 +223,8 @@ img#treeFrontRightLeaves {
 }
 .signsHome,
 .signs {
-	padding-left: 35%;
-	width: 100%;
+    margin: 0 auto;
+    width: 1024px;
 	position: relative;
 	top: -100px;
 	height: 0px;
@@ -319,7 +319,7 @@ li#andy-birth {top: 830px; left: 845px;}
 
 
 
-.nav { overflow: hidden; margin: 0 0 10px 0; list-style: none; position: relative; top: -25px; left: -60px}
+.nav { overflow: hidden; margin: 0 0 10px 0; list-style: none; position: relative; top: -25px; left: 270px}
 .nav li { width: 97px; float: left; margin: 0 10px 0 0; }
 .nav li.last { margin-right: 0; }
 .nav li a { display: block; padding: 5px; border: 0; }
