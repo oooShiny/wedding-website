@@ -4,7 +4,7 @@
 }
 @font-face {
     font-family: introFont;
-    src: url('../fonts/Archistico_Simple.ttf');
+    src: url('../fonts/24boughs2.ttf');
 }
 
 
@@ -379,9 +379,10 @@ li#andy-birth {top: 830px; left: 845px;}
 #intro {
     position: absolute;
     top: 180px;
-    left: 330px;
+    left: 280px;
     text-align: center;
     font-size: 200%;
     font-variant: small-caps;
-    font-family: 'introFont';
+    font-family: 'introFont', cursive;
+    font-weight: bold;
 }

@@ -41,7 +41,7 @@
 				<div id="example-two">
 
 				<div id="home" class="pageContent">
-          <div id="intro">October Fourth,Two Thousand and Fourteen<br>
+          <div id="intro">October Fourth Two Thousand and Fourteen<br>
           Millville Lake &#8226; Salem, New Hampshire</div>
 <!--          <ul class="timeline" id="time-both">-->
 <!--            <li id="both-married">Andy &amp; Erin get married!</li>-->
