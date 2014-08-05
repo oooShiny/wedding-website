@@ -38,7 +38,7 @@
       // Text to show up in each bubble
       var infoPortland = new google.maps.InfoWindow({content: '<div class="map-content"><h1 class="firstHeading">Portland, ME</h1><div class="bodyContent"><a href="http://www.portlandmaine.com/discover-portland/" target="_blank">Click here for things to do in Portland.</a></div></div>'});
       var infoPortsmouth = new google.maps.InfoWindow({content: '<div class="map-content"><h1 class="firstHeading">Portsmouth, NH</h1><div class="bodyContent"><a href="http://www.portsmouthnh.com/visitors/" target="_blank">Click here for things to do in Portsmouth.</a></div></div>'});
-      var infoSalem = new google.maps.InfoWindow({content: '<div class="map-content"><h1 class="firstHeading">Wedding Venue</h1><div class="bodyContent">5 Stone Post Road<br>Salem, NH 03079</div></div>'});
+      var infoSalem = new google.maps.InfoWindow({content: '<div class="map-content"><h1 class="firstHeading">Wedding Venue</h1><div class="bodyContent">5 Stone Post Road<br>Salem, NH 03079<br><a href="directions.php">Driving Directions</a></div></div>'});
       var infoBoston = new google.maps.InfoWindow({content: '<div class="map-content"><h1 class="firstHeading">Boston, MA</h1><div class="bodyContent"><a href="http://www.bostonusa.com/" target="_blank">Click here for things to do in Boston.</a></div></div>'});
       var infoNashua = new google.maps.InfoWindow({content: '<div class="map-content"><h1 class="firstHeading">Nashua, NH</h1><div class="bodyContent"><a href="http://www.downtownnashua.org/" target="_blank">Click here for things to do in Nashua.</a></div></div>'});
 
@@ -139,7 +139,7 @@
           <br>
           <h2 id="visitorh2">Suggested Accomodations</h2>
           <p>
-            We're lucky to have guests joining our celebration from places across the United States and around the world!  We hope the information we've provided here will help with those travels.
+            We're lucky to have guests joining our celebration from places across the United States and around the world!  We hope the information we've provided here will help with those travels. For those looking for directions, <a href="directions.php">click here</a>.
           </p>
           <!--Google Map-->
           <div id="map_canvas"></div>
@@ -150,13 +150,13 @@
               <li><a target="_blank" href="http://laquintasalemnh.com">La Quinta</a></li>
             </ul>
 
-            <h3>Nashua, NH</h3>
+            <h3>Nashua, NH (20 mins)</h3>
             <ul>
               <li><a target="_blank" href="http://www.ihg.com/crowneplaza/hotels/us/en/nashua/ashst/hoteldetail">Crowne Plaza Hotel</a></li>
               <li><a target="_blank" href="http://hamptoninn3.hilton.com/en/hotels/new-hampshire/hampton-inn-nashua-ASHNHHX/index.html">Hampton Inn</a></li>
             </ul>
 
-            <h3>Portsmouth, NH</h3>
+            <h3>Portsmouth, NH (40 mins)</h3>
             <p>If you’re heading North, take a look at the <a target="_blank" href="http://www.portsmouthnh.com/lodging/">Portsmouth, NH website</a> for lodging suggestions. There are some great places to stay.</p>
   <br>
             <p>Since our beginning together, we’ve spent A LOT of time in Portsmouth. We love it so much, we’re staying there on our wedding night at the Ale House Inn. Downtown Portsmouth has wonderful food and fun shops. Here are some of our favorite places to grab a bite:</p>
@@ -168,7 +168,7 @@
               <li><a target="_blank" href="http://www.jumpinjays.com">Jumpin’ Jay’s Fish Café</a> - just so good. Make a reservation!</li>
             </ul>
 
-            <h3>Boston, MA</h3>
+            <h3>Boston, MA (30 mins)</h3>
             <p>We have some suggestions for places to stay if you’re heading South, towards Boston/Andover.</p>
             <ul>
               <li><a target="_blank" href="http://www.marriott.com/hotels/travel/mhtch-courtyard-boston-andover/">Courtyard Marriott</a></li>
