@@ -38,7 +38,7 @@
       // Text to show up in each bubble
       var infoPortland = new google.maps.InfoWindow({content: '<div class="map-content"><h1 class="firstHeading">Portland, ME</h1><div class="bodyContent"><a href="http://www.portlandmaine.com/discover-portland/" target="_blank">Click here for things to do in Portland.</a></div></div>'});
       var infoPortsmouth = new google.maps.InfoWindow({content: '<div class="map-content"><h1 class="firstHeading">Portsmouth, NH</h1><div class="bodyContent"><a href="http://www.portsmouthnh.com/visitors/" target="_blank">Click here for things to do in Portsmouth.</a></div></div>'});
-      var infoSalem = new google.maps.InfoWindow({content: '<div class="map-content"><h1 class="firstHeading">Wedding Venue</h1><div class="bodyContent">5 Stone Post Road<br>Salem, NH 03079<br><a href="directions.php">Driving Directions</a></div></div>'});
+      var infoSalem = new google.maps.InfoWindow({content: '<div class="map-content"><h1 class="firstHeading">Wedding Venue</h1><div class="bodyContent"><a href="directions.php">Driving Directions</a></div></div>'});
       var infoBoston = new google.maps.InfoWindow({content: '<div class="map-content"><h1 class="firstHeading">Boston, MA</h1><div class="bodyContent"><a href="http://www.bostonusa.com/" target="_blank">Click here for things to do in Boston.</a></div></div>'});
       var infoNashua = new google.maps.InfoWindow({content: '<div class="map-content"><h1 class="firstHeading">Nashua, NH</h1><div class="bodyContent"><a href="http://www.downtownnashua.org/" target="_blank">Click here for things to do in Nashua.</a></div></div>'});
 

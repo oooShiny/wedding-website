@@ -60,7 +60,7 @@
                 <li>Straight through the next set of lights at the library.</li>
                 <li>Stay on Meisner, wave to #12 (the old Brown house!). At the end, take a left.</li>
                 <li>After passing the church on your left, take the next right onto Stone Post Road.</li>
-                <li>The Brown house is the second house on the left. Welcome!</li>
+                <li>Number 5 is the second house on the left. Welcome!</li>
               </ul>
               <h2>From the North (Manchester/Concord):</h2>
               <ul>
@@ -72,7 +72,7 @@
                 <li>Straight through the next set of lights at the library.</li>
                 <li>Stay on Meisner, wave to #12 (the old Brown house!). At the end, take a left.</li>
                 <li>After passing the church on your left, take the next right onto Stone Post Road.</li>
-                <li>The Brown house is the second house on the left. Welcome!</li>
+                <li>Number 5 is the second house on the left. Welcome!</li>
               </ul>
               <h2>From the East (Portsmouth):</h2>
               <ul>
@@ -83,7 +83,7 @@
                 <li>Take a right at the Red Barn lights onto School Street.</li>
                 <li>You're on School Street for another mile or 2. Look for a church just around a bend.</li>
                 <li>After passing the church on your left, take the next right onto Stone Post Road.</li>
-                <li>The Brown house is the second house on the left. Welcome!</li>
+                <li>Number 5 is the second house on the left. Welcome!</li>
               </ul>
               <h2>From the West (Nashua/Merrimack):</h2>
               <ul>
@@ -97,7 +97,7 @@
                 <li>Straight through the next set of lights at the library.</li>
                 <li>Stay on Meisner, wave to #12 (the old Brown house!). At the end, take a left.</li>
                 <li>After passing the church on your left, take the next right onto Stone Post Road.</li>
-                <li>The Brown house is the second house on the left. Welcome!</li>
+                <li>Number 5 is the second house on the left. Welcome!</li>
               </ul>
 
             </div>
